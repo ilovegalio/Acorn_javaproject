@@ -42,7 +42,7 @@ public class ED20_IF {
 		*/
 
 		int x= 0;
-		
+		adad
 		x = 15;
 		System.out.printf("x=%2d 10<x<20 = %b %n", x ,x>10 && x<20);
 		System.out.printf("x= %-3d, x %% 2 ==0 || x %%3 ==0 \t %b \n",x ,((x % 2 ==0) || (x % 3 ==0)));
