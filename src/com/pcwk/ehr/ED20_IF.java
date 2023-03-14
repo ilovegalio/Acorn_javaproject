@@ -42,13 +42,12 @@ public class ED20_IF {
 		*/
 
 		int x= 0;
-		adad
 		x = 15;
 		System.out.printf("x=%2d 10<x<20 = %b %n", x ,x>10 && x<20);
 		System.out.printf("x= %-3d, x %% 2 ==0 || x %%3 ==0 \t %b \n",x ,((x % 2 ==0) || (x % 3 ==0)));
 		
 		char ch = '2';
 		System.out.printf("0 < %c < 9 = %b",ch,ch >= '0' && ch <= '9');
-		System.out.println("나는 수정을 했다. ㅇㅈ?");
+		System.out.println("자바 외에서 수정했어요. ㅇㅈ?");
 	}
 }
