@@ -16,12 +16,12 @@
 package com.pcwk.ehr;
 
 /**
- * Description : 클래스에 대한 설명을 입력해주세요.<br>
- * Date : 2023. 3. 14<br>
- * History :<br>
- * - 작성자 : user, 날짜 : 2023. 3. 14, 설명 : 최초작성<br>
+ * Description : 비교 연산자를 공부해본 class
+ * Date : 2023. 3. 14
+ * History : 2번째 commit
+ * - 작성자 : 민윤홍, 날짜 : 2023. 3. 14, 설명 : 비교 연산자를 공부 해 봤어요
  *
- * @author user
+ * @author 민윤홍
  * @version 1.0
  */
 public class ED20_IF {
@@ -40,7 +40,7 @@ public class ED20_IF {
 			else System.out.printf("%c는 0~9사이아님\n", (char)i);
 		}
 		*/
-		
+
 		int x= 0;
 		
 		x = 15;
@@ -49,6 +49,6 @@ public class ED20_IF {
 		
 		char ch = '2';
 		System.out.printf("0 < %c < 9 = %b",ch,ch >= '0' && ch <= '9');
-		
+		System.out.println("나는 수정을 했다. ㅇㅈ?");
 	}
 }
